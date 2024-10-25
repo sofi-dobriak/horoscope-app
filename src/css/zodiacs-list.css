@@ -1,0 +1,22 @@
+.image-container {
+    position: relative;
+    width: fit-content;
+}
+
+.image-container img {
+    width: 112px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.image-container:hover .color,
+.image-container:focus .color {
+    opacity: 1;
+}

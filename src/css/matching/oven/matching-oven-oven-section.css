@@ -1,0 +1,23 @@
+.match-sign {
+    margin-bottom: 80px;
+}
+
+.match-title {
+    font-size: var(--main-font-size);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.match-number {
+    color: var(--accent-font-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.match-description {
+    margin-bottom: 16px;
+}

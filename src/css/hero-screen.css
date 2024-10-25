@@ -1,0 +1,9 @@
+.hero-button {
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--hover-focus-color);
+}
