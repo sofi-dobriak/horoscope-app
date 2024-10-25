@@ -19,6 +19,24 @@
   padding-top: 4px;
 }
 
+.footer-link {
+  transition: color .3s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-font-color);
+}
+
+.footer-icon {
+  transition: fill .3s ease;
+}
+
+.footer-link:hover .footer-icon,
+.footer-link:focus .footer-icon {
+  fill: var(--accent-font-color);
+}
+
 .icon-text-container {
   display: flex;
   flex-direction: column;
